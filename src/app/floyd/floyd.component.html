@@ -1,0 +1,10 @@
+<p>floyd works!</p>
+<p>
+  <input #checkbox type="checkbox" value="even">Even?<br>
+  <input #rows type="text" name="rows">
+  <button (click)="onClick(rows.value, checkbox.checked)">Click</button>
+</p>
+<pre appAngularPre [highlightColor]="color">
+  {{ floydString }}<br>
+
+</pre>
